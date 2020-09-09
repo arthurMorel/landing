@@ -1,0 +1,92 @@
+.discover{
+	margin-top: 70px;
+	font-style: italic;
+	color: rgb(0, 71, 119);
+	font-weight:700;
+}
+.discover h2{
+	margin-left: 40px;
+}
+.discovers{
+	display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+.discover-card1 {
+height: 260px;
+width: 260px;
+background-image: url('../images/MEX.jpg');
+background-size: cover;
+background-position: center;
+
+}
+.discover-card2 {
+height: 260px;
+width: 260px;
+background-image: url('../images/cruise.jpg');
+background-size: cover;
+background-position: center;
+}
+.discover-card3 {
+height: 260px;
+width: 260px;
+background-image: url('../images/VTHC.jpg');
+background-size: cover;
+background-position: center;
+}
+.discover-card4 {
+height: 260px;
+width: 260px;
+
+background-image: url('../images/CANC.jpg');
+background-size: cover;
+background-position: center;
+}
+
+.discover-desc1 {
+   opacity:0;
+}
+.discover-card1:hover .discover-desc1{
+  opacity:1;
+  height: 260px;
+  width: 260px;
+  background-color: rgba(0,71,119,0.4);
+  color:rgb(250,250,250);
+  font-size: 12px;
+} 
+.discover-desc2 {
+   opacity:0;
+}
+.discover-card2:hover .discover-desc2{
+  opacity:1;
+  height: 260px;
+  width: 260px;
+  background-color: rgba(0,71,119,0.4);
+  color:rgb(250,250,250);
+  text-align: center;
+  font-size: 12px;
+} 
+.discover-desc3 {
+   opacity:0;
+}
+.discover-card3:hover .discover-desc3{
+  opacity:1;
+  height: 260px;
+  width: 260px;
+  background-color: rgba(0,71,119,0.4);
+  color:rgb(250,250,250);
+  text-align: center;
+  font-size: 12px;
+} 
+.discover-desc4 {
+   opacity:0;
+}
+.discover-card4:hover .discover-desc4{
+  opacity:1;
+  height: 260px;
+  width: 260px;
+  background-color: rgba(0,71,119,0.4);
+  color:rgb(250,250,250);
+  text-align: center;
+  font-size: 12px;
+} 

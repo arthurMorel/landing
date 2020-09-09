@@ -1,0 +1,35 @@
+.zoom {
+	margin-top: 70px;
+	display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#zoom-punta {
+height: 400px;
+width: 600px;
+background-image: url('../images/punta.jpg');
+background-size: cover;
+background-position: center;
+}
+
+#zoom-arc {
+height: 400px;
+width: 600px;
+background-image: url('../images/arc.jpg');
+background-size: cover;
+background-position: center;
+}
+#zoom-colc {
+height: 400px;
+width: 600px;
+background-image: url('../images/colc.jpg');
+background-size: cover;
+background-position: center;
+}
+.zoom-detail {
+height: 400px;
+width: 600px;
+text-align: justify;
+padding: 5px;
+}
